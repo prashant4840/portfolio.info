@@ -4,7 +4,7 @@ This is my personal portfolio website where I showcase who I am, what I build, a
 
 The site is hosted on GitHub Pages and is fully responsive, so it works smoothly across different devices and screen sizes.
 
-Live Site: https://prashant4840.github.io/portfolio.info/
+Live Site: https://prashant4840.github.io/myportfolio.info/
 
 ⸻
 
