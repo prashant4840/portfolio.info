@@ -88,15 +88,14 @@ ul{list-style:none;}
 .header__left{display:flex;align-items:center;gap:12px;}
 
 .header__avatar{
-  width:44px;height:44px;   /* slightly smaller = tighter header */
+  width:44px;height:44px;
   border-radius:7px;overflow:hidden;flex-shrink:0;
   border:1.5px solid var(--border);
-  image-rendering:pixelated;
   box-shadow:0 1px 6px rgba(0,0,0,.08);
   opacity:0;
   animation:scaleUp .5s cubic-bezier(.22,1,.36,1) forwards 0ms;
 }
-.header__avatar img{width:100%;height:100%;object-fit:cover;display:block;image-rendering:pixelated;}
+.header__avatar img{width:100%;height:100%;object-fit:cover;display:block;}
 
 .header__info{display:flex;flex-direction:column;gap:1px;}
 .header__name{
@@ -166,12 +165,11 @@ ul{list-style:none;}
   border-radius:50%;overflow:hidden;
   border:2px solid var(--border);
   box-shadow:0 6px 30px rgba(0,0,0,.10);
-  image-rendering:pixelated;
   margin-bottom:20px;
   opacity:0;
   animation:scaleUp .65s cubic-bezier(.22,1,.36,1) forwards 100ms;
 }
-.hero__avatar img{width:100%;height:100%;object-fit:cover;display:block;image-rendering:pixelated;}
+.hero__avatar img{width:100%;height:100%;object-fit:cover;display:block;}
 
 .hero__name{
   font-family:'Outfit',sans-serif;
